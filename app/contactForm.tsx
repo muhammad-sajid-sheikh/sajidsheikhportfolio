@@ -13,7 +13,7 @@ export const ContactForm: React.FC =()=>{
     if (form.current) {
       emailjs
         .sendForm('service_6iog6hr;', 'template_kv3kxlq;', form.current, {
-          publicKey: 'tiUQnIokrPPMnlP_O',
+          publicKey: 'tiUQnIokrPPMnlP_O;',
         })
         .then(
           () => {
