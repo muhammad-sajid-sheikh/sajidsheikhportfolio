@@ -12,8 +12,8 @@ export const ContactForm: React.FC =()=>{
 
     if (form.current) {
       emailjs
-        .sendForm("service_6iog6hr", "template_kv3kxlq", form.current, {
-          publicKey: "tiUQnIokrPPMnlP_O",
+        .sendForm('service_6iog6hr', 'template_kv3kxlq', form.current, {
+          publicKey: 'tiUQnIokrPPMnlP_O',
         })
         .then(
           () => {
@@ -38,7 +38,7 @@ export const ContactForm: React.FC =()=>{
     return(
         <div className="bg-[#030B14] rounded-lg p-4 sm:p-10">
             <h1 className="text-bg text-2xl md:text-3xl lg:text-[2.5rem] font-bold">
-            Let's work together!
+            Let&rsquo;s work together!
             </h1>
             <p className="text-[#BFA181] mt-3 lg:text-base text-xs md:text-sm">
             Connections made in the workplace, which are helpful for career and business growth.
