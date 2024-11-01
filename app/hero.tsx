@@ -2,7 +2,7 @@ import { BaseInfo } from "@/data/data"
 import { FaDownload } from "react-icons/fa"
 import Image from "next/image"
 import sajid2 from "../public/images/sajid2.png"
-import { url } from "inspector"
+
 
 function Hero(){
     return(

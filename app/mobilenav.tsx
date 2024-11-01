@@ -1,5 +1,4 @@
-import { navlink } from "@/constant/constant"
-import Link from "next/link"
+
 import { CgClose } from "react-icons/cg"
 import { FaHome } from "react-icons/fa"
 import { TbArrowRoundaboutRight } from "react-icons/tb";
@@ -8,7 +7,6 @@ import { SiPolymerproject } from "react-icons/si";
 import { GiSkills } from "react-icons/gi";
 import { MdOutlineReviews } from "react-icons/md";
 import { RiContactsBook3Fill } from "react-icons/ri";
-import { useRouter } from "next/router";
 
 
 

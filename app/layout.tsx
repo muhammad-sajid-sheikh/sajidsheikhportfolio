@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import ResponsiveNav from "./responsivenav";
-import Footers from "./footer";
 import ScrollToTop from "@/components/helper/scrollToTop";
 import AnimatedCursor from "react-animated-cursor"
 

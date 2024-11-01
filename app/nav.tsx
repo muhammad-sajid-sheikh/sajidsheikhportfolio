@@ -1,9 +1,6 @@
 "use client";
-import Link from "next/link"
 import Image from "next/image"
-import logosa from "../public/images/logosa.png"
 import logo2 from "../public/images/logo2.png"
-import { navlink } from "@/constant/constant"
 import { HiBars3BottomRight } from "react-icons/hi2"
 import { useEffect, useState } from "react";
 
