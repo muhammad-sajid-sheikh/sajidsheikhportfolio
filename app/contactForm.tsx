@@ -12,21 +12,21 @@ export const ContactForm: React.FC =()=>{
 
     if (form.current) {
       emailjs
-        .sendForm(`service_6iog6hr;`, `template_kv3kxlq;`, form.current, {
-          publicKey: `tiUQnIokrPPMnlP_O;`,
+        .sendForm("service_6iog6hr", "template_kv3kxlq", form.current, {
+          publicKey: "tiUQnIokrPPMnlP_O",
         })
         .then(
           () => {
-            console.log('SUCCESS!');
+            console.log("SUCCESS!");
 
-            alert('Your message has been sent successfully!');
+            alert("Your message has been sent successfully!");
             // Form ko reset karne ke liye
             form.current?.reset()
           },
           (error) => {
 
-            alert('Failed to send message, please try again.');
-            console.log('FAILED...', error.text);
+            alert("Failed to send message, please try again.");
+            console.log("FAILED...", error.text);
           }
         );
     }
