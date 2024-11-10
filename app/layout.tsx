@@ -19,7 +19,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Sajid Sheikh Portfolio",
-  description: "webdev Portfolio with next.js",
+  description: "Portfolio with next.js",
 };
 
 export default function RootLayout({

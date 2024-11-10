@@ -70,6 +70,11 @@ export const ProjectData = [
         id: 2,
         image: "/images/profile.png",
         url: "https://muhammad-sajid-resume.vercel.app/"
+    },
+    {
+        id: 3,
+        image: "/images/resumebuilderne.png",
+        url: "https://resumebuilderoneclick.vercel.app"
     }
 ]
 
